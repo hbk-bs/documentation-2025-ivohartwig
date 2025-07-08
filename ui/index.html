@@ -7,6 +7,7 @@
       onload="this.rel='stylesheet'"
       href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>HBK</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
@@ -29,8 +30,8 @@
     >
       <div>
         <div class="flex items-center bg-white p-4 pb-2 justify-between">
-          <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Profile</h2>
-          <div class="flex w-12 items-center justify-end">
+          <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-4 sm:pl-12">Profile</h2>
+          <div class="flex w-10 sm:w-12 items-center justify-end">
             <button
               class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-[#111518] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
             >
@@ -44,11 +45,11 @@
         </div>
       </div>
       <div>
-        <div class="flex p-4 @container">
+        <div class="flex p-2 sm:p-4 @container">
           <div class="flex w-full flex-col gap-4 items-center">
-            <div class="flex gap-4 flex-col items-center">
+            <div class="flex gap-2 sm:gap-4 flex-col items-center">
               <div
-                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-24 w-24 sm:min-h-32 sm:w-32"
                 style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDchc5rn1C4aySHb5VplltDRgFKpP5NqDKwLHKFnnKCOatRGiuWRYjUptpdYDGk5B4nSGByN-MDaeiWFAISfBmX7m5x0p9_6alcIdyDvHC6dxwYkWlOzl5ElBEn74PVMxBw5ib34SKAVGMkd53sS8h4wNZC8CuSaTkIooL0WFgh3fI99gMBpLY7OKkbOBm4Ul13-89jT5DlNOGEXfLwDqnb0P8mknghQWiyR1dMc-jayqGQmGJ_jh3IFwLsGfa_nM04Fpf9PQApA885");'
               ></div>
               <div class="flex flex-col items-center justify-center justify-center">
@@ -60,7 +61,7 @@
           </div>
         </div>
         <div class="pb-3">
-          <div class="flex border-b border-[#dbe1e6] px-4 justify-between">
+          <div class="flex border-b border-[#dbe1e6] px-2 sm:px-4 justify-between">
             <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#111518] text-[#111518] gap-1 pb-[7px] pt-2.5 flex-1" href="#">
               <div class="text-[#111518]" data-icon="GridFour" data-size="24px" data-weight="fill">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
@@ -73,8 +74,8 @@
             </a>
           </div>
         </div>
-        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-          <div class="flex flex-col gap-3">
+        <div class="grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-2 sm:gap-3 p-2 sm:p-4">
+          <div class="flex flex-col gap-2 sm:gap-3">
             <a href="/documentation-2025-ivohartwig/ui/sides/index.html" class="w-full">
               <div
                 class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl image-hover"
@@ -85,7 +86,7 @@
          
          
         </div>
-        <div class="h-5 bg-white"></div>
+        <div class="h-3 sm:h-5 bg-white"></div>
       </div>
     </div>
   </body>
