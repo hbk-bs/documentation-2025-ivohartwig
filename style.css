@@ -107,6 +107,10 @@
   .NAVWEB:hover {
   background-color: black;
   }
+
+  .textheader {
+    font-style: italic;
+  }
   /* header style ends  */
   
   /* main style */
