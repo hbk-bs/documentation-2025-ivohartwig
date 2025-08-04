@@ -89,8 +89,8 @@
     }
 
     h4 {
-    margin-left: 20px;
     margin-top: 30px;
+    margin-bottom:15px;
     font-style: italic;
     color: black;
     }
@@ -104,13 +104,12 @@
 
     .REFLECTION p {
     color:black;
-    margin:20px ;
     }
 
     .text {
     text-align: left;
     max-width: 800px; /* Begrenzung der Breite */
-    width: 90%; /* Anpassung an verschiedene Bildschirmgrößen */
+    width: 80%; /* Anpassung an verschiedene Bildschirmgrößen */
     margin: 0 auto; /* Zentrierung */
     }
  /* main style ends */
