@@ -45,14 +45,14 @@
 	  max-width: 900px;
 	  margin: 0 auto;
 	  font-family:sans-serif;
-    background-color:lightgray;
+    background-color:white;
 	   }
 
 
   
   /* main style */
   main {
-    background-color:#515251;
+    background-color:lightgray;
     border-radius:10px;
     padding: 10px;
     margin:15px;
@@ -60,12 +60,13 @@
     
     h1 {
     text-align:center;
-    color:white;
+    color:black;
     }
     
     main p {
     text-align:center;
-    color:white;
+    color:black;
+    font-style: italic;
     }
     
     main ul {
@@ -90,30 +91,37 @@
     }
     
     .NAVWEB {
-    background-color:#989898c7;
-    margin:15px;
-    padding: 1px;
-    border-radius: 10px;
-    }
+  background-color: rgba(255,255,255,0.25); /* helles, transparentes Grau */
+  margin:15px;
+  padding: 1px;
+  border-radius: 10px;
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.35); /* subtiler weißer Rahmen */
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08); /* sanfter Schatten */
+  transition: background 0.3s, box-shadow 0.3s;
+}
 
-    .NAVWEB:hover {
-    background-color: black;
-    }
+.NAVWEB:hover {
+  background-color: rgba(255,255,255,0.4);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
 
     .Space {
-    background-color:#989898c7;
+    background-color:black;
     margin:15px;
     padding: 1px;
     border-radius: 10px;
     }
 
     .navtext {
-      color: white;
+      color: black;
       text-align:center;
     }
   
     .navtext:hover {
-      color: white;
+      color: #989898c7;
+      font-style: italic;
     }
   
    
@@ -157,4 +165,3 @@
 	  }
    
   }
-  
