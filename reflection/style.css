@@ -48,9 +48,7 @@
     background-color:white;
 	   }
 
-
-  
-  /* main style */
+/* main style */
   main {
     background-color:lightgray;
     border-radius:10px;
@@ -63,25 +61,10 @@
     color:black;
     }
     
-    main p {
+    .info {
     text-align:center;
     color:black;
     font-style: italic;
-    }
-    
-    main ul {
-    text-align:center;
-    margin-top:15px;
-    font-weight:bold;
-    }
-    
-    main ul li a {
-      list-style: none;
-      color:white;
-    }
-    
-    main ul li a:hover {
-    font-size:105%;
     }
     
     .header{
@@ -90,23 +73,6 @@
     justify-content:space-evenly;
     }
     
-    .NAVWEB {
-  background-color: rgba(255,255,255,0.25); /* helles, transparentes Grau */
-  margin:15px;
-  padding: 1px;
-  border-radius: 10px;
-  backdrop-filter: blur(12px) saturate(180%);
-  -webkit-backdrop-filter: blur(12px) saturate(180%);
-  border: 1px solid rgba(0, 0, 0, 0.35); /* subtiler weißer Rahmen */
-  box-shadow: 0 4px 24px rgba(0,0,0,0.08); /* sanfter Schatten */
-  transition: background 0.3s, box-shadow 0.3s;
-}
-
-.NAVWEB:hover {
-  background-color: rgba(255,255,255,0.4);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-}
-
     .Space {
     background-color:black;
     margin:15px;
@@ -114,36 +80,42 @@
     border-radius: 10px;
     }
 
-    .navtext {
-      color: black;
-      text-align:center;
-    }
-  
-    .navtext:hover {
-      color: #989898c7;
-      font-style: italic;
-    }
-  
-   
-
     @media (max-width: 600px) {
     .text {
       width: 95%; /* Größere Breite auf kleineren Bildschirmen */
       max-width: none; /* Falls max-width das Problem verursacht */
       line-height: 1.2;
-  }
-}
+    }
+    }
+
+    h4 {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-style: italic;
+    color: black;
+    }
+  
+    .REFLECTION {
+	  margin:15px;
+	  padding: 10px;
+	  border-radius: 10px;
+    color:white
+    }
+
+    .REFLECTION p {
+    color:black;
+    margin:20px ;
+    }
+
+    .text {
+    text-align: left;
+    max-width: 800px; /* Begrenzung der Breite */
+    width: 80%; /* Anpassung an verschiedene Bildschirmgrößen */
+    margin: 0 auto; /* Zentrierung */
+    }
  /* main style ends */
 
-
-
-
-  
-  
-  
-  
-  
-  /* footer style */
+ /* footer style */
   .footer {
     display: flex;
     justify-content: center; 
