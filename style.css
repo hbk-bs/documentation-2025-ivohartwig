@@ -39,120 +39,92 @@
    * Add the correct font size in all browsers.
    */
   }
-  
-  /*css reset soft end*/
+   /*css reset soft end*/
   
   body {
 	  max-width: 900px;
 	  margin: 0 auto;
 	  font-family:sans-serif;
-    background-color:white;
+    background-color:lightgray;
 	   }
-  
-  
-  /* header style */
-  header {
-	background-color:#515251;
-	border-radius:10px;
-	padding: 10px;
-	margin:15px;
-  }
-  
-  h1 {
-	text-align:center;
-	color:white;
-  }
-  
-  header p {
-	text-align:center;
-	color:white;
-  }
-  
-  header ul {
-	text-align:center;
-	margin-top:15px;
-	font-weight:bold;
-  }
-  
-  header ul li a {
-	  list-style: none;
-	  color:white;
-	}
-  
-  header ul li a:hover {
-	font-size:105%;
-  }
-  
-  .header{
-	display:flex;
-	flex-direction:row;
-	justify-content:space-evenly;
-  }
-  
-  .NAVWEB {
-  background-color:#989898c7;
-  margin:15px;
-  padding: 1px;
-  border-radius: 10px;
-  }
 
-  .navtext {
-    color: white;
-  }
 
-  .navtext:hover {
-    color: white;
-  }
-
-  .NAVWEB:hover {
-  background-color: black;
-  }
-  /* header style ends  */
   
   /* main style */
-  h2 {
-	text-align:center;
-	color:white;
-  }
-
-  .text {
-    text-align: left;
-    max-width: 800px; /* Begrenzung der Breite */
-    width: 80%; /* Anpassung an verschiedene Bildschirmgrößen */
-    margin: 0 auto; /* Zentrierung */
+  main {
+    background-color:#515251;
+    border-radius:10px;
+    padding: 10px;
+    margin:15px;
+    }
     
+    h1 {
+    text-align:center;
+    color:white;
+    }
     
-}
+    main p {
+    text-align:center;
+    color:white;
+    }
+    
+    main ul {
+    text-align:center;
+    margin-top:15px;
+    font-weight:bold;
+    }
+    
+    main ul li a {
+      list-style: none;
+      color:white;
+    }
+    
+    main ul li a:hover {
+    font-size:105%;
+    }
+    
+    .header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    }
+    
+    .NAVWEB {
+    background-color:#989898c7;
+    margin:15px;
+    padding: 1px;
+    border-radius: 10px;
+    }
+  
+    .navtext {
+      color: white;
+      text-align:center;
+    }
+  
+    .navtext:hover {
+      color: white;
+    }
+  
+    .NAVWEB:hover {
+    background-color: black;
+    }
 
-@media (max-width: 600px) {
-  .text {
+    @media (max-width: 600px) {
+    .text {
       width: 95%; /* Größere Breite auf kleineren Bildschirmen */
       max-width: none; /* Falls max-width das Problem verursacht */
       line-height: 1.2;
   }
 }
+ /* main style ends */
 
-h4 {
-  margin-left: 20px;
-  margin-top: 30px;
-  font-style: italic;
-}
-  
-  
-  .REFLECTION {
-	background-color: #515251;
-	margin:15px;
-	padding: 10px;
-	border-radius: 10px;
-  color:white
-  }
 
-  .REFLECTION p {
-   color:white;
-   margin:20px ;
-   }
+
+
   
-  /* main style ends */
+  
+  
+  
   
   /* footer style */
   .footer {
@@ -166,8 +138,9 @@ h4 {
     max-width: 60px; 
     height: auto;  
   }
-  
   /* footer style ends */
+
+
   
   @media(max-width: 600px) {
 	  body {
