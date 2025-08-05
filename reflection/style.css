@@ -102,6 +102,11 @@
     margin: 0 auto; /* Zentrierung */
     color: black;
     }
+
+    .REFLECTION { 
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
  /* main style ends */
 
  /* footer style */
