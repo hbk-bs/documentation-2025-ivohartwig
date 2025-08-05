@@ -125,9 +125,7 @@
     border: 1px solid rgba(0, 0, 0, 0.35); /* subtiler weißer Rahmen */
     box-shadow: 0 4px 24px rgba(0,0,0,0.08); /* sanfter Schatten */
     transition: background 0.3s, box-shadow 0.3s;
-    max-width: 800px;
-    width: 80%;
-    margin: 0 auto;
+   
     }
     
     .NAVWEB:hover {
@@ -155,6 +153,21 @@
       list-style-type: disc; /* Override the CSS reset to show bullet points */
       padding-left: 20px; /* Add proper indentation */
     }
+
+    main ul {
+      text-align:center;
+      margin-top:15px;
+      font-weight:bold;
+      }
+      
+      main ul li a {
+        list-style: none;
+        color:white;
+      }
+      
+      main ul li a:hover {
+      font-size:105%;
+      }
  /* main style ends */
 
  /* footer style */

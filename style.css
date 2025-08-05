@@ -69,20 +69,6 @@
     font-style: italic;
     }
     
-    main ul {
-    text-align:center;
-    margin-top:15px;
-    font-weight:bold;
-    }
-    
-    main ul li a {
-      list-style: none;
-      color:white;
-    }
-    
-    main ul li a:hover {
-    font-size:105%;
-    }
     
     .header{
     display:flex;
