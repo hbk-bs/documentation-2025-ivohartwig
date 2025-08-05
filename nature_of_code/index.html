@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
-		<title>TEACHABLE MACHINE</title>
+		<title>NATURE OF CODE</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 
@@ -14,7 +14,7 @@
 	  
 	<main>
 		<div class="header">
-			<h1>TEACHABLE MACHINE</h1>
+			<h1>NATURE OF CODE</h1>
 		</div>
    
 	 	<p class="info">So/Se 2025 - Ivo Hartwig </p>
@@ -22,114 +22,79 @@
 		<section class="Space">
 		</section>
 
-		<a href="https://github.com/hbk-bs/teachable-machine-ivohartwig" target="_blank">
+		<a href="https://github.com/hbk-bs/nature-of-code-ivohartwig" target="_blank">
 		<p class="repo">Respository</p>
 		</a>
 
 		<section class="Space">
 		</section>
 
+		<section class="REFLECTION">
+		<div class="text">
+					<h4>RESEARCHING</h4>
+			<p>How can natural structures be translated into written code? What should one focus on – the physical properties or the visual ones? To find out, the Digital Foundations course from HBK Braunschweig spent a week on Amrum, a small island in North Frisia.
+				On the first evening, I walked across the dunes to the sea. Once I had climbed over the sand hill, the endless beach and mudflats stretched out before me. I was forced to walk a long way to reach the water. Along the way, I immediately noticed something: how many different kinds of structures the beach can have.</p>
+			<h4>STRUCTURES</h4>
+			<p>In the first step, my goal was to translate the visual properties of the beach's structures into code. I quickly realized that these structures can be distinguished by two rather subtle characteristics: the spacing between the lines and the way the lines themselves flow – whether they are more straight or wavy.
+				In my code, these properties can be adjusted using the variables <code>let spacing</code> and <code>let noiseScale</code>. Here, <code>let spacing</code> defines the distance between the lines, and <code>let noiseScale</code> describes their flow.</p>
+			<a href="#STRUCTURES"><h5>SAND1</h5></a>
+			<pre><code>let spacing = 15; <br>let noiseScale = 0.05; </code></pre>
+			<a href="#SAND2"><h5>SAND2</h5></a>
+			<pre><code>let spacing = 3; <br>let noiseScale = 0.05;</code></pre>
+			<a href="#SAND3"><h5>SAND3</h5></a>
+			<pre><code>let spacing = 3; <br>let noiseScale = 1;</code></pre>
+			<a href="#SAND4"><h5>SAND4</h5></a>
+			<pre><code>let spacing = 4; <br>let noiseScale = 0.02;</code></pre>
+			<a href="#SAND5"><h5>SAND5</h5></a>
+            <pre><code>let spacing = 4;  <br>let noiseScale = 0.02;</code></pre>
+			
+			<ul>
+				<li>NO SECOND LOOP FOR CONNECTING LINES</li>
+				<li>NO INTERRUPTIONS IN THE LINES</li>
+			</ul>
+			
+			<a href="#PARTICLE"><h4>PARTICLE SYSTEM / WATER </h4></a>
+			<p>But how do these different structures come into being?
+				Through my observations, I noticed that they all share one thing in common: they are formed by the constant movement of water.
+				In some cases, water flows through the structures, following the path of least resistance; in others, it deposits more and more sand, which accumulates over time.
+				To translate not only the visual but also the physical properties, I used a particle system to simulate water flowing over sand, generating these structures.</p>
+				
+				<p>The particles in this simulation represent water droplets that rise due to a strong upward buoyant force. Their movement is controlled by a maximum speed, ensuring realistic dynamics. The particles have a lifespan, which determines how long they stay active before being removed from the system.
+
+					When colliding with the background lines, which act as barriers, the particles are reflected, with their velocity being adjusted for a realistic response. If the line is slanted upwards, the particles also receive a tangential boost, enhancing their movement along the line. If a particle becomes nearly stationary due to low velocity, a release force is applied to get it moving again.
+					
+					The particles randomly respond to their environment, mimicking the chaotic and unpredictable behavior of water droplets. Overall, the simulation creates a dynamic and realistic representation of how water droplets interact with various forces.</p>
+		</div>
+
 		<section class="THEMA">
 			
 			<div class="image-container2">
-			
-			<figure>
-			<img class="p5" src="https://hbk-bs.github.io/teachable-machine-ivohartwig/assets/bla.jpg">
-			<figcaption></figcaption>
-			</figure>
-
-			<figure>
-			<img class="p5" src="https://hbk-bs.github.io/teachable-machine-ivohartwig/assets/bla2.jpg">
-			<figcaption></figcaption>
-			</figure>
 		
 			</div>
 		
 		</section>
-
-		<section class="REFLECTION">
-				<div class="text">
-					<p>Teachable Machine Learning is an approach to machine learning that allows users without programming skills to train their own models – usually through a user-friendly interface like Google's Teachable Machine. For example, users can upload images, sounds, or poses to create an AI model that recognizes and classifies them.
-		
-						In short:
-						Teachable Machine Learning makes it easy for anyone to create AI models by teaching the machine to recognize patterns from examples.</p>
-					<h4>IMAGE DETECTOR / IMAGE MODEL</h4>
-					<h5>Calculator:</h5>
-					<ul>
-						<li>Teachable Machine trained on digits</li>
-						<li>Percentage indication of probability</li>
-						<li>Program recognizes the digits held in front of the camera</li>
-						<li>Function: Should be able to calculate using the operators</li>
-					</ul>
-					<h5>Not me:</h5>
-					<ul>
-						<li>Pictures of me and pictures only of the background</li>
-						<li>Percentage indication of probability</li>
-					</ul>
-					<h5>Mugshot:</h5>
-					<ul>
-						<li>Use pictures of fellow students to build an AI model</li>
-						<li>Pictures in front of a neutral background -> avoid disturbances</li>
-						<li>Percentage indication of probability</li>
-						<li>From a certain probability a gimmick</li>
-					</ul>
-					<h4>AUDIO DETECTOR / AUDIO MODEL </h4>
-					<h5>Music:</h5>
-					<ul>
-						<li>Record start and stop from fellow students</li>
-						<li>Different background noises to train the AI better on the words</li>
-						<li>When start: song begins</li>
-						<li>When stop: song stops</li>
-					</ul>
-					<h4>MOTION DETECTOR / MOTION MODEL</h4>
-					<h5>Start_Stop:</h5>
-					<ul>
-						<li>Hands up: start</li>
-						<li>Hands down: stop</li>
-						<li>No function considered so far</li>
-					</ul>
-					<h4>PROBLEMS</h4>
-					<ul>
-						<li>Teachable Machine Learning very inaccurate</li>
-						<li>Many factors influence the accuracy</li>
-						<li>Nice layout for the functions</li>
-						<li>Uncertain which idea I want to pursue</li>
-					</ul>
-				</div>
+				
 	    </section>
 
-			<a href="https://hbk-bs.github.io/teachable-machine-ivohartwig/projects/test_rechner_3/" target="_blank">
+			<a href="https://hbk-bs.github.io/nature-of-code-ivohartwig/projects/code/" target="_blank">
 			<section class="NAVWEB">
-				<h2 id="MENU" class="navtext">CALCULATOR</h2>
+				<h2 id="MENU" class="navtext">BASIC CODE</h2>
 			</section>
 			</a>
 		
-			<a href="https://hbk-bs.github.io/teachable-machine-ivohartwig/projects/not_me/" target="_blank">
+			<a href="https://hbk-bs.github.io/nature-of-code-ivohartwig/projects/ebbe_flut_2_repeller_finale/" target="_blank">
 			<section class="NAVWEB">
-				<h2 id="MENU" class="navtext">NOT_ME</h2>
+				<h2 id="MENU" class="navtext">PARTICLE SYSTEM</h2>
 			</section>
 			 </a>
 		
-			<a href="https://hbk-bs.github.io/teachable-machine-ivohartwig/projects/mugshot/" target="_blank">
+			<a href="https://hbk-bs.github.io/nature-of-code-ivohartwig/projects/ebbe_flut_2_repeller_inter/" target="_blank">
 			<section class="NAVWEB">
-				<h2 id="MENU" class="navtext">MUGSHOT</h2>
+				<h2 id="MENU" class="navtext">INTERACTION</h2>
 			</section>
 			</a>
-		
-			<a href="https://hbk-bs.github.io/teachable-machine-ivohartwig/projects/test_audio_3/" target="_blank">
-			<section class="NAVWEB">
-				<h2 id="MENU" class="navtext">MUSIC</h2>
-			</section>
-			</a>
-		
-			<a href="https://hbk-bs.github.io/teachable-machine-ivohartwig/projects/start_stop/" target="_blank">
-			<section class="NAVWEB">
-				<h2 id="MENU" class="navtext">START_STOP</h2>
-			</section>
-			</a>
-			
 
- 	 </main>
+	</main>
 
 	<footer class="footer">
 		<img class="me" src="https://hbk-bs.github.io/the-archives-ivohartwig/assets/images/Webbrille.png" alt="Webbrille">
