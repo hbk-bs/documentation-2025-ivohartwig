@@ -144,7 +144,17 @@
     color: #989898c7;
     font-style: italic;
     }
-  
+
+    li {
+      list-style-position: outside; /* Position bullets outside of text */
+      margin-left: 5px; /* Reduced margin since we're using padding on the ul */
+    }
+
+    ul {
+      margin-bottom: 15px; /* Add space after each list */
+      list-style-type: disc; /* Override the CSS reset to show bullet points */
+      padding-left: 20px; /* Add proper indentation */
+    }
  /* main style ends */
 
  /* footer style */
