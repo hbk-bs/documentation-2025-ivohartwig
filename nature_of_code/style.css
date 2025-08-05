@@ -135,6 +135,21 @@
     max-width: 800px;
     width: 80%;
     }
+
+    .SAND {
+    background-color: rgba(255,255,255,0.25); /* helles, transparentes Grau */
+    margin:15px auto;
+    margin-top: 30px;
+    padding: 1px;
+    border-radius: 10px;
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filte: blur(12px) saturate(180%);
+    border: 1px solid rgba(0, 0, 0, 0.35); /* subtiler weißer Rahmen */
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08); /* sanfter Schatten */
+    transition: background 0.3s, box-shadow 0.3s;
+    max-width: 800px;
+    width: 80%;
+    }
     
     .NAVWEB:hover {
     background-color: rgba(255,255,255,0.4);
@@ -170,8 +185,8 @@
     
     .image-container2{
     display: flex;
-    flex-direction:row;  
-    justify-content:space-evenly;
+    flex-direction:column;  
+    align-items: center; /* Zentriert die Bilder */
     flex-wrap: wrap;
     }
       
@@ -181,12 +196,23 @@
     border-radius: 20px;
     width: 300px
     }
+
+    .iframe-p5 {
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    aspect-ratio: 3 / 2; /* falls nötig für saubere Darstellung */
+    border: none;
+    overflow: hidden;
+    }
     
     figcaption { 
     text-align:center;
     color:black;
     margin-bottom:15px;
     }
+  
  /* main style ends */
 
  /* footer style */
@@ -209,7 +235,7 @@
 	  body {
 		  width: auto;
 	  }
-    .NAVWEB {
+    .NAVWEB, .SAND {
       width: 95%;
       max-width: none;
     }
