@@ -66,6 +66,13 @@
     color:black;
     font-style: italic;
     }
+
+    .repo {
+    text-align:center;
+    color:black;
+    font-style: italic;
+    text-decoration: underline;
+    }
     
     .header{
     display:flex;
@@ -104,9 +111,40 @@
     }
 
     .REFLECTION { 
-      margin-top: 20px;
-      margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     }
+
+    .NAVWEB {
+    background-color: rgba(255,255,255,0.25); /* helles, transparentes Grau */
+    margin:15px;
+    padding: 1px;
+    border-radius: 10px;
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filte: blur(12px) saturate(180%);
+    border: 1px solid rgba(0, 0, 0, 0.35); /* subtiler weißer Rahmen */
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08); /* sanfter Schatten */
+    transition: background 0.3s, box-shadow 0.3s;
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    .NAVWEB:hover {
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    }
+
+    .navtext {
+    color: black;
+    text-align:center;
+    }
+  
+    .navtext:hover {
+    color: #989898c7;
+    font-style: italic;
+    }
+  
  /* main style ends */
 
  /* footer style */
@@ -129,5 +167,8 @@
 	  body {
 		  width: auto;
 	  }
-   
+    .NAVWEB {
+      width: 95%;
+      max-width: none;
+    }
   }

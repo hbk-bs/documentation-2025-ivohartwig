@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
-		<title>REFLECTION</title>
+		<title>UNIVERSAL INTERFACE</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 
@@ -14,7 +14,7 @@
 	  
 	<main>
 		<div class="header">
-			<h1>REFLECTION</h1>
+			<h1>UNIVERSAL INTERFACE</h1>
 		</div>
    
 	 	<p class="info">So/Se 2025 - Ivo Hartwig </p>
@@ -22,22 +22,34 @@
 		<section class="Space">
 		</section>
 
+		<a href="https://github.com/hbk-bs/text-the-universal-interface-ivohartwig" target="_blank">
+		<p class="repo">Respository</p>
+		</a>
+
+		<section class="Space">
+		</section>
+
 		<section class="REFLECTION">
 			<div class="text">
-			<p>This semester, I learned the fundamental skills of digital design and how to apply them. To be honest, I didn’t expect to encounter these topics to this extent before starting my studies. At first, I felt a bit overwhelmed (especially by GitHub), but over time, I gradually got into the subject. I always thought that programming and web design weren’t for me, but during this seminar, I discovered that I actually enjoy them.</p>
-			<h4>LEARNINGS </h4>
-			<p>First of all, I should mention that, apart from a brief introduction in school, I had no prior experience with HTML and CSS. However, I slowly got into the subject. The structural organization of the code itself helped me a lot: header, main, and footer, with sections and divs underneath, followed by classes and IDs. I’ve always had a good sense of structural relationships, which worked in my favor here. Later on, working with Flexbox helped me a lot in creating a responsive layout.
-			To better understand the connection between HTML and CSS, I came up with a little analogy: HTML is the body containing all the information, while CSS is the clothing that provides the styling. The link between the two languages seemed quite logical to me from the beginning, so I didn’t struggle too much with it.</p>
-			<h4>TOOLS / TECHNIQUES / CONCEPTS</h4>
-			<p>From perspective to interaction to motion – everything is possible with p5.js! Later in the seminar, we focused intensively on this program and its possibilities. Since we worked with it for a long time, I kept discovering new aspects and learning what could be done with it.
-			We started with simple 2D sketches and gradually moved on to interaction and animation. I noticed that I was quite comfortable with functional relationships and relative coordinates. However, I struggled more with loops and arrays.</p>
-			<h4>SURPRISINGS</h4>
-			<p>How can humans and machines be connected in an artistic context? In other words, how can the analog and digital worlds be merged? The answer: through physical computing!
-			In this part of the seminar, we focused on exactly that. We worked in groups on projects using Arduinos, sensors, and LEDs.</p>
-			<h4>ADDITIONAL INFORMATIONS </h4>
-			<p>This is just a short summary – check out my website to learn more about my projects and experiences!</p>
+				<h4>TASK</h4>
+				<p>This project explores the creation of a speculative, beautiful, and meaningful web-based experience that interacts with users through a Large Language Model (LLM). Users provide inputs—text, images, location, or other data—which the model transforms into unexpected and poetic responses. In the first phase, different LLMs are explored, small prototypes are built, and prompt engineering techniques are practiced. The second phase focuses on developing the core concept and interaction flow. Finally, the project is refined visually, tested with real users, and polished into a playful, thoughtful digital experience.</p>
+				<h4>WHAT IS A LLM ?</h4>
+				<p>An LLM (Large Language Model) is an advanced AI system trained on large-scale text data using the Transformer architecture, which allows it to process and generate human-like language. It works by analyzing the context of a given input and predicting the most likely next word or sequence of words. Through this process, it can generate coherent text, answer questions, translate languages, and more. While it captures complex patterns and relationships in language, it does not possess real understanding or consciousness.</p>
+				<h4>WHAT IS AN API ?</h4>
+				<p>An API (Application Programming Interface) is a standardized interface that allows different software systems to communicate with each other. In my case, the API is used to retrieve information from OpenStreetMap and present it in a format that the LLM can understand — such as address data or geographical distances.</p>
+				<h4>IDEA</h4>
+				<p>My original idea was to develop a chat interface with a Large Language Model (LLM) that could assist me with location and navigation questions. To make this possible, I needed to transmit my current location to the model. However, I quickly realized that an LLM can't do much with raw coordinates, like those retrieved from a browser. It lacks direct access to external maps or geodata services that would allow it to translate this information into understandable text.
+					To solve this, I integrated an interface to the OpenStreetMap API for what is known as "reverse geocoding." In this process, the coordinates are sent to OpenStreetMap, and the API converts them into readable addresses or location descriptions. These details are then provided to the LLM in advance.
+					Additionally, I implemented another API that gives the model access to map data. This allows the chat interface to answer questions about distances and directions — for example, "How do I get to a specific place?"
+					To make the project more engaging and entertaining, I also added a feature that lets users choose their mode of transportation — for instance, as a human, a bird, or even an ant. This way, users can playfully explore how long a route would take depending on their form of movement.</p>
 			</div>
 	    </section>
+
+		<a href="https://hbk-bs.github.io/text-the-universal-interface-ivohartwig/projects/chat_standort_7.3_handy_osmr_animal_2_local.2/">
+			<section class="NAVWEB">
+				<h2 id="MENU" class="navtext">LLM CHAT</h2>
+			</section>
+		</a>
 			
 
  	 </main>
