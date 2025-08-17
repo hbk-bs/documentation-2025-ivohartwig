@@ -9,5 +9,6 @@
   - Links to live previews 
   - Pictures and videos
   - Links to the repos of the projects
+  - Debate Club
 - A license 
 - A lot of work and love <3
