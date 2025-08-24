@@ -131,3 +131,32 @@
 	  }
    
   }
+
+/* Elegant back button style */
+.back-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.back-button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.back-button svg {
+  color: black;
+  width: 20px;
+  height: 20px;
+}
+
+.back-button:hover {
+  transform: scale(1.05);
+}
