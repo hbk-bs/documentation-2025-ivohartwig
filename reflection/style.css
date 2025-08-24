@@ -132,11 +132,12 @@
    
   }
 
-/* Elegant back button style */
+/* Elegant back button style - updated position */
 .back-link {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 15%;
+  left: 0;
+  transform: translateY(-50%);
   z-index: 1000;
 }
 
@@ -144,7 +145,7 @@
   width: 40px;
   height: 40px;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 0 12px 12px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,5 +159,5 @@
 }
 
 .back-button:hover {
-  transform: scale(1.05);
+  transform: translateX(3px);
 }
